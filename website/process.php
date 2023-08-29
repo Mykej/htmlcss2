@@ -14,6 +14,7 @@
   // built in method that sends variables to specific target.
 	mail($to,$subject,$txt,$headers);
 	
+  //Will redirect you to contact.html page after message has been submitted.
 	header("Location: contact.html");
 	
 

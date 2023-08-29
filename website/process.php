@@ -1,7 +1,7 @@
 <?php ob_start();
 
 
-  // Catches the submit button when it is clicked in contact.html and fills in the variables with the data in the contact form.
+  // Catches the submit button when it is clicked in contact.html and fills in the super global variables  ($_POST[''];with the data in the contact form.
 	if(isset($_POST['submit'])) {
 		
 	$to = "bigpicfoc90@gmail.com";
